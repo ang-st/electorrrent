@@ -9,9 +9,8 @@ var server = new Server({
     // omitted, all torrents are allowed. It is possible to interface with a database or
     // external system before deciding to allow/deny, because this function is async.
 
-    var allowed = true //YaY \o/ //(infoHash === 'aaa67059ed6bd08362da625b3ae77f6f4a075aaa')
+    var allowed = true // YaY \o/ //(infoHash === 'aaa67059ed6bd08362da625b3ae77f6f4a075aaa')
     cb(allowed)
-
   }
 })
 
@@ -47,7 +46,6 @@ server.on('complete', function (addr) {})
 server.on('update', function (addr) {})
 server.on('stop', function (addr) {})
 
-//server.listen(port, hostname, onlistening)
+// server.listen(port, hostname, onlistening)
 
-module.exports=server
-
+module.exports = server
