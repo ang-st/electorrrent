@@ -1,0 +1,19 @@
+{
+  "name": "contracker",
+  "version": "1.0.0",
+  "description": "A tracker seeder on contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ang-st",
+  "license": "ISC",
+  "dependencies": {
+    "bittorrent-tracker": "^7.3.2",
+    "electron-spawn": "^4.1.1",
+    "react": "^0.14.7",
+    "reflux": "^0.4.0",
+    "web3": "^0.15.3",
+    "webtorrent": "^0.83.0"
+  }
+}
